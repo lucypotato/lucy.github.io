@@ -219,7 +219,6 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
-		text-align: center;
 	}
 
 		.container.medium {
@@ -1743,7 +1742,6 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		padding-left: 1em;
-		text-align: left;
 	}
 
 		ul li {
@@ -1761,7 +1759,10 @@ input, select, textarea {
 
 	ul.nobull {
 		list-style-type:none;
-		text-align: center;
+	}
+
+	ul.work {
+		text-align: left;
 	}
 
 /* Social */
